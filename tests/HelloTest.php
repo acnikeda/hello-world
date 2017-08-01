@@ -1,10 +1,10 @@
 class HelloTest.php extends PHPUnit_Framework_TestCase {
 
-    function testTest() {
+    function testA1() {
         $this->assertEquals(2, 1 + 1);
     }
 
-    function testHello() {
+    function testA2() {
         $t = new Hello();
 
         $this->assertTrue($t->index());
