@@ -2,7 +2,7 @@
 <phpunit
     colors="true"
     bootstrap="bootstrap.php">
-    <testsuite name="Test">
+    <testsuite name="Hello">
         <directory>./</directory>
     </testsuite>
     <logging>
