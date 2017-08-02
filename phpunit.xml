@@ -2,8 +2,8 @@
 <phpunit
     colors="true"
     bootstrap="bootstrap.php">
-    <testsuite name="Hello">
-        <directory>./</directory>
+    <testsuite name="hello">
+        <directory>tests</directory>
     </testsuite>
     <logging>
         <log type="coverage-clover" target="build/logs/clover.xml"/>
