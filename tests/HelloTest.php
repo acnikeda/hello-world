@@ -1,4 +1,6 @@
-class HelloTest.php extends PHPUnit_Framework_TestCase {
+<?php
+
+class HelloTest extends PHPUnit_Framework_TestCase {
 
     function testA1() {
         $this->assertEquals(2, 1 + 1);

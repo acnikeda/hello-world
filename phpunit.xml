@@ -2,9 +2,11 @@
 <phpunit
     colors="true"
     bootstrap="bootstrap.php">
-    <testsuite name="hello">
-        <directory>tests</directory>
-    </testsuite>
+    <testsuites>
+        <testsuite name="Hello">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
     <logging>
         <log type="coverage-clover" target="build/logs/clover.xml"/>
     </logging>
